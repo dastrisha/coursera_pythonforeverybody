@@ -180,31 +180,48 @@ enters “done”. Write the program to store the numbers the user enters in a l
 and use the max() and min() functions to compute the maximum and minimum
 numbers after the loop completes."""
 
-empty_list = []
+# empty_list = []
 
-while True :
-    user = input("Enter a number: ")
-    if user == "Done" :
-        break
-    user_float = float(user)
-    empty_list.append(user_float)
+# while True :
+#     user = input("Enter a number: ")
+#     if user == "Done" :
+#         break
+#     user_float = float(user)
+#     empty_list.append(user_float)
 
-print(min(empty_list), max(empty_list))
+# print(min(empty_list), max(empty_list))
+
+# fname = input("Enter file name: ")
+# fh = open(fname)
+# lst = list()
+# for line in fh:
+#     print(line.rstrip())
+
+#Assignment 1
+
+# fname = input("Enter file name: ")
+# fh = open(fname)
+# lst = []
+# for line in fh:   
+#     words = line.strip().split()
+#     lst.extend(words)
+#     unique_word = list(set(lst))
+#     unique_word.sort()
+# print(unique_word)
+
+#Using append as asked in the assignment
 
 
-
-
-
-
-
-
-    
-
-
-
-
-
-
+# fname = input("Enter file name: ")
+# fh = open(fname)
+# lst = []
+# for line in fh:   
+#     words = line.strip().split()
+#     for word in words:
+#         lst.append(word)
+#         unique_word = list(set(lst))
+#         unique_word.sort()
+# print(unique_word)
 
 
 

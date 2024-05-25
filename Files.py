@@ -15,10 +15,10 @@ float_numbers = []
 for line in fh:
     if not line.startswith("X-DSPAM-Confidence:"):
         continue
-    final_float = float(line.split(":")[1])
+    final_float = float(line.split(":")[1]) #[1]this accesses the second element of the list created by the split method.
     float_numbers.append(final_float)
 # print (float_numbers)
-    #print (final_float)
+    #print (ffinal_float)
 
 count = 0
 total = 0
@@ -28,6 +28,7 @@ for number in float_numbers:
     # print (count)
     total = total + number
 print ("Average spam confidence: ", total/count)
+
 
 
 
